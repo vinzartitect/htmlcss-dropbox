@@ -618,3 +618,35 @@ a:hover {
 .color8 {
     background-color: #ffd830;
 }
+
+
+
+
+
+/* sezione inizia prova gratuita */
+
+.start .container-s {
+    padding: 130px 0px;
+}
+
+.start .left-col {
+    width: 65%;
+    float: left;
+}
+
+.start .left-col h2 {
+    color: #61082c;
+    padding-right: 200px;
+    font-size: 50px;
+}
+
+.start .right-col {
+    width: 35%;
+    float: right;
+}
+
+.start .right-col button {
+    width: 90%;
+    padding: 0px 60px;
+    border: none;
+}

@@ -650,3 +650,54 @@ a:hover {
     padding: 0px 60px;
     border: none;
 }
+
+
+
+
+
+/* sezione domande */
+
+.faq .container-s {
+    padding: 150px 0px;
+}
+
+.faq .container-s h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.question {
+    padding: 40px 0px;
+    border-top: 2px solid #e0e0e0;
+    cursor: pointer;
+}
+
+.question-last {
+    border-bottom: 2px solid #e0e0e0;;
+}
+
+.question i {
+    font-size: 2rem;
+    margin-top: -30px;
+    margin-right: 20px;
+    float: right;
+}
+
+.answer {
+    display: none;
+}
+
+.answer p {
+    font-size: 0.8rem;
+    margin: 20px 0px 0px;
+}
+
+.ghost {
+    position: absolute;
+    appearance: none;
+    cursor: pointer;
+}
+
+.ghost:checked + .answer{
+    display: block;
+}

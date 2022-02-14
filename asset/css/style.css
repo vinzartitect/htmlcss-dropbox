@@ -446,3 +446,42 @@ a:hover {
 }
 
 
+
+
+
+/* Sezione operazioni business */
+.operations h2 {
+    padding-bottom: 80px;
+    font-size: 50px;
+}
+
+.operations .row {
+    margin-bottom: 100px;
+}
+
+.operations .col {
+    width: calc( 100% / 3 - 50px);
+    float: left;
+}
+
+.operations .col-mid {
+    margin: 0px 75px;
+}
+
+.operations .col img {
+    width: 100%;
+}
+
+.operations .col h3 {
+    font-size: 30px;
+}
+
+.operations .col p {
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.operations .col span {
+    text-decoration: underline;
+}
+

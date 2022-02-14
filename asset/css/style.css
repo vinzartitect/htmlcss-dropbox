@@ -39,6 +39,10 @@ header {
     margin-top: 0;
     line-height: 80px;
     position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1500px;
+    z-index: 500;
 }
 
 /* blocco di sinistra con logo */
@@ -191,9 +195,6 @@ a:hover {
 
 .arrow-down {
     color: black;
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: 800;
 }
 
 
@@ -378,6 +379,7 @@ a:hover {
 
 .feature li {
     font-size: 0.85rem;
+    list-style-type: none;
 }
 
 
@@ -401,5 +403,46 @@ a:hover {
 }
 
 
+
+
+
+/* sezione trova partners */
+
+.partners .col-left {
+    width: 55%;
+    float: left;
+}
+
+.partners .container-s {
+    padding: 200px 0px 100px;
+}
+
+.partners .col-left img {
+    width: 95%;
+}
+
+.partners .col-right {
+    width: 45%;
+    float: left;
+    padding: 40px 0px 0px 40px;
+}
+
+.partners .col-right p {
+    padding: 30px 0px;
+    line-height: 35px;
+}
+
+.white-btn{
+    border: 1px solid black;
+    background-color: white;
+}
+
+.white-btn:hover{
+    background-color: #f1f1f1;;
+}
+
+.white-btn:active{
+    background-color: #e9e9e9;
+}
 
 

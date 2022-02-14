@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+.container-vw {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .container-l {
     width: 80%;
     margin: 0 auto;
@@ -41,7 +46,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 1500px;
+    /* min-width: 1500px; */
     z-index: 500;
 }
 
@@ -395,11 +400,14 @@ a:hover {
     padding-bottom: 0px;
 }
 
+.col-1of1 .plan-content div {
+    float: left;
+    padding-bottom: 30px;
+}
+
 .col-1of1 button {
-    position: relative;
+    float: left;
     width: 320px;
-    top: -130px ;
-    right: -860px ;
 }
 
 
@@ -485,3 +493,128 @@ a:hover {
     text-decoration: underline;
 }
 
+
+
+
+
+/* sezione team clienti */
+
+/* testo in alto */
+.customer .container-s {
+    margin-top: 200px;
+}
+
+.customer h2 {
+    width: 55%;
+    font-size: 50px;
+}
+
+.customer p.link {
+    padding: 30px 0px 50px;
+}
+
+
+
+/* sezione larga con i loghi */
+.customer .col {
+    width: 30%;
+}
+
+.customer .left-col {
+    float: left;
+}
+
+.customer .mid-col {
+    width: 40%;
+    height: 569.6px;
+    margin-left: 30%;
+    padding: 55px;
+    position: absolute;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+}
+
+.customer .right-col {
+    float: right;
+}
+
+.customer .row {
+    width: 100%;
+    float: left;
+}
+
+.customer .left-col-small, .customer .right-col-small {
+    width: 50%;
+}
+
+.customer .left-col-small {
+    float: left;
+    aspect-ratio: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.customer .right-col-small {
+    float: right;
+    aspect-ratio: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.customer .col img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    filter: invert(1);
+}
+
+.customer .col .photo-dim {
+    width: 50%;
+}
+
+.customer .mid-col img {
+    width: 25%;
+}
+
+.customer .mid-col hr {
+    border: 1px solid #e0e0e0;
+    width: 10%;
+    margin: 25px 0px 60px;
+}
+
+.customer .mid-col .signature {
+    margin-top: 60px;
+}
+
+.color1 {
+    background-color: #a2d39b;
+    border: 12px solid #d0e9cd;
+}
+
+.color2 {
+    background-color: #61082b;
+}
+
+.color3 {
+    background-color: #0093ce;
+}
+
+.color4 {
+    background-color: #ff1c1c;
+}
+
+.color5 {
+    background-color: #d5001f;
+}
+
+.color6 {
+    background-color: #b4d0e7;   
+}
+
+.color7 {
+    background-color: #0d2481;
+}
+
+.color8 {
+    background-color: #ffd830;
+}

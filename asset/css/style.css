@@ -725,13 +725,15 @@ footer {
     font-size: 0.8rem;
 }
 
-footer .col {
-    float: left;
-    margin: 100px 70px;
+footer .container-l {
+    height: 65vh;
+    padding: 120px 0;
 }
 
-footer .col:first-of-type {
-    margin: 100px 70px 100px 0px;
+footer .col {
+    float: left;
+    margin-right: 150px;
+    padding-bottom: 120px;
 }
 
 footer span {
@@ -739,14 +741,14 @@ footer span {
     font-size: 1rem;
 }
 
+footer ul {
+    padding-top: 30px;
+}
+
 footer li {
     padding-bottom: 10px;
     cursor: pointer;
     list-style-type: none;
-}
-
-footer li:first-child {
-    padding-top: 20px;
 }
 
 footer li:hover {
